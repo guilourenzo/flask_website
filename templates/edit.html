@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Claro: Data Quality</title>
+    
+    <link href="https://getbootstrap.com/docs/3.4/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="https://getbootstrap.com/docs/3.4/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+    <link href="../static/css/create.css" rel="stylesheet">
+    <script src="../static/js/jquery-3.5.1.js"></script>
+    <script src="../static/js/create.js"></script>
+   
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" ><a href="/">Home</a></li>
+            <li role="presentation"><a href="showSignIn">Sign In</a></li>
+            <li role="presentation"><a href="showSignUp">Sign Up</a></li>
+            <li role="presentation"><a href="createRule">Create Rule</a></li>
+            <li role="presentation" class="active"><a href="#">Edit Rule</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Claro: Data Quality</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h3>Crie aqui as regras de Data Quality</h3>
+        <form class="form-create">
+
+        <label for="inputSearchRules" class="sr-only">Search Rules</label>
+        <input type="name" name="inputSearchRules" id="inputSearchRules" class="form-control" placeholder="Search Rules" autofocus>
+
+        <button id="btnSearch" class="btn btn-lg btn-primary btn-block" type="button">Search Rule</button>
+        
+        <!-- FORMULÁRIO -->
+        <label for="inputRulesName" class="sr-only">Rules Name</label>
+        <input type="name" name="inputRulesName" id="inputRulesName" class="form-control" placeholder="Rules" value="{{ request.form['inputRulesName'] or rules['rules_name'] }}" autofocus>
+        
+        <label for="inputRulesDescription" class="sr-only">Rules Description</label>
+        <input type="text" name="inputRulesDescription" id="inputRulesDescription" class="form-control" placeholder="Rules Description" value="{{ request.form['inputRulesDescription'] or rules['rules_description'] }}" autofocus>
+        
+        <label for="inputRulesEnvironment" class="sr-only">Rules Environment</label>
+        <input type="name" name="inputRulesEnvironment" id="inputRulesEnvironment" class="form-control" placeholder="Rules Environment" value="{{ request.form['inputRulesEnvironment'] or rules['rules_environment'] }}" autofocus>
+        
+        <label for="inputRulesCommand" class="sr-only">Rules Command</label>
+        <input type="text" name="inputRulesCommand" id="inputRulesCommand" class="form-control" placeholder="Rules Command" value="{{ request.form['inputRulesCommand'] or rules['rules_command'] }}" autofocus>
+        
+        <input type="checkbox" name="inputRulesActive" id="inputRulesActive" placeholder="Rules Active" value="{{ request.form['inputRulesActive'] or rules['rules_active'] }}"><label for="inputRulesActive">Rules Active</label>
+
+        <button id="btnEdit" class="btn btn-lg btn-primary btn-block" type="button">Create Rule</button>
+      </form>
+      </div>
+
+      
+
+      <footer class="footer">
+        <p>&copy; Claro 2020</p>
+      </footer>
+
+    </div>
+  </body>
+</html>

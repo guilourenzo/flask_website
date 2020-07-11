@@ -1,6 +1,123 @@
-2020-07-10 01:52:32,507 - INFO:PROCESSO INICIADO
-2020-07-10 01:52:32,508 - INFO:MYSQL CONFIGURADO COM SUCESSO
-2020-07-10 01:52:32,549 - WARNING: * Debugger is active!
-2020-07-10 01:52:32,591 - INFO: * Debugger PIN: 884-659-376
-2020-07-10 01:52:32,658 - INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2020-07-10 01:54:00,223 - INFO:127.0.0.1 - - [10/Jul/2020 01:54:00] "[37mGET /showSignUp HTTP/1.1[0m" 200 -
+2020-07-10 23:36:35,755 - INFO:PROCESSO INICIADO
+2020-07-10 23:36:35,755 - INFO:MYSQL CONFIGURADO COM SUCESSO
+2020-07-10 23:36:35,843 - INFO: * Restarting with windowsapi reloader
+2020-07-10 23:36:37,244 - INFO:PROCESSO INICIADO
+2020-07-10 23:36:37,245 - INFO:MYSQL CONFIGURADO COM SUCESSO
+2020-07-10 23:36:37,275 - WARNING: * Debugger is active!
+2020-07-10 23:36:37,302 - INFO: * Debugger PIN: 884-659-376
+2020-07-10 23:36:37,381 - INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-07-10 23:36:46,659 - INFO:127.0.0.1 - - [10/Jul/2020 23:36:46] "[37mGET / HTTP/1.1[0m" 200 -
+2020-07-10 23:36:54,305 - INFO:127.0.0.1 - - [10/Jul/2020 23:36:54] "[37mGET /showSignIn HTTP/1.1[0m" 200 -
+2020-07-10 23:36:54,496 - INFO:127.0.0.1 - - [10/Jul/2020 23:36:54] "[36mGET /static/css/signin.css HTTP/1.1[0m" 304 -
+2020-07-10 23:36:54,825 - INFO:127.0.0.1 - - [10/Jul/2020 23:36:54] "[36mGET /static/js/signIn.js HTTP/1.1[0m" 304 -
+2020-07-10 23:36:59,112 - INFO:127.0.0.1 - - [10/Jul/2020 23:36:59] "[37mGET /showSignUp HTTP/1.1[0m" 200 -
+2020-07-10 23:36:59,318 - INFO:127.0.0.1 - - [10/Jul/2020 23:36:59] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
+2020-07-10 23:36:59,414 - INFO:127.0.0.1 - - [10/Jul/2020 23:36:59] "[36mGET /static/js/signUp.js HTTP/1.1[0m" 304 -
+2020-07-10 23:37:40,308 - INFO:CONEXÃO INICIADA
+2020-07-10 23:37:40,561 - INFO: * Detected change in 'C:\\Users\\guilo\\anaconda3\\Lib\\encodings\\__pycache__\\hex_codec.cpython-37.pyc', reloading
+2020-07-10 23:37:40,599 - INFO:CONEXÃO FINALIZADA
+2020-07-10 23:37:40,732 - INFO:USUÁRIO CRIADO COM SUCESSO
+2020-07-10 23:37:40,732 - INFO:127.0.0.1 - - [10/Jul/2020 23:37:40] "[37mPOST /signUp HTTP/1.1[0m" 200 -
+2020-07-10 23:37:41,586 - INFO: * Restarting with windowsapi reloader
+2020-07-10 23:37:43,098 - INFO:PROCESSO INICIADO
+2020-07-10 23:37:43,098 - INFO:MYSQL CONFIGURADO COM SUCESSO
+2020-07-10 23:37:43,119 - WARNING: * Debugger is active!
+2020-07-10 23:37:43,146 - INFO: * Debugger PIN: 884-659-376
+2020-07-10 23:37:43,211 - INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-07-10 23:37:52,689 - INFO:127.0.0.1 - - [10/Jul/2020 23:37:52] "[37mGET /showSignIn HTTP/1.1[0m" 200 -
+2020-07-10 23:39:51,098 - INFO:CONEXÃO INICIADA:guilherme.lourenco@br.experian.com 
+2020-07-10 23:39:51,098 - INFO:CONEXÃO INICIADA:34 
+2020-07-10 23:39:51,319 - INFO:VALIDAÇÃO DE USUÁRIO: False
+2020-07-10 23:39:51,319 - INFO:CONEXÃO FINALIZADA
+2020-07-10 23:39:51,319 - ERROR:ERRO NA AUTENTICAÇÃO DO USUÁRIO
+2020-07-10 23:39:51,319 - INFO:127.0.0.1 - - [10/Jul/2020 23:39:51] "[37mPOST /signIn HTTP/1.1[0m" 200 -
+2020-07-10 23:39:53,937 - INFO:127.0.0.1 - - [10/Jul/2020 23:39:53] "[37mGET /showSignIn HTTP/1.1[0m" 200 -
+2020-07-10 23:39:54,321 - INFO:127.0.0.1 - - [10/Jul/2020 23:39:54] "[37mGET /static/css/signin.css HTTP/1.1[0m" 200 -
+2020-07-10 23:39:54,673 - INFO:127.0.0.1 - - [10/Jul/2020 23:39:54] "[37mGET /static/js/signIn.js HTTP/1.1[0m" 200 -
+2020-07-10 23:39:54,767 - INFO:127.0.0.1 - - [10/Jul/2020 23:39:54] "[37mGET /static/js/jquery-3.5.1.js HTTP/1.1[0m" 200 -
+2020-07-10 23:39:55,654 - INFO:127.0.0.1 - - [10/Jul/2020 23:39:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-07-10 23:40:15,021 - INFO:CONEXÃO INICIADA:guilherme.lourenco@br.experian.com 
+2020-07-10 23:40:15,021 - INFO:CONEXÃO INICIADA:34 
+2020-07-10 23:40:15,192 - INFO:VALIDAÇÃO DE USUÁRIO: False
+2020-07-10 23:40:15,193 - INFO:CONEXÃO FINALIZADA
+2020-07-10 23:40:15,194 - ERROR:ERRO NA AUTENTICAÇÃO DO USUÁRIO
+2020-07-10 23:40:15,196 - INFO:127.0.0.1 - - [10/Jul/2020 23:40:15] "[37mPOST /signIn HTTP/1.1[0m" 200 -
+2020-07-10 23:40:26,161 - INFO:CONEXÃO INICIADA:guilherme.lourenco@br.experian.com 
+2020-07-10 23:40:26,167 - INFO:CONEXÃO INICIADA:34 
+2020-07-10 23:40:26,360 - INFO:VALIDAÇÃO DE USUÁRIO: False
+2020-07-10 23:40:26,360 - INFO:CONEXÃO FINALIZADA
+2020-07-10 23:40:26,360 - ERROR:ERRO NA AUTENTICAÇÃO DO USUÁRIO
+2020-07-10 23:40:26,360 - INFO:127.0.0.1 - - [10/Jul/2020 23:40:26] "[37mPOST /signIn HTTP/1.1[0m" 200 -
+2020-07-10 23:41:39,320 - INFO:127.0.0.1 - - [10/Jul/2020 23:41:39] "[37mGET /showSignUp HTTP/1.1[0m" 200 -
+2020-07-10 23:41:57,773 - INFO:CONEXÃO INICIADA
+2020-07-10 23:41:58,002 - INFO:CONEXÃO FINALIZADA
+2020-07-10 23:41:58,125 - INFO:USUÁRIO CRIADO COM SUCESSO
+2020-07-10 23:41:58,125 - INFO:127.0.0.1 - - [10/Jul/2020 23:41:58] "[37mPOST /signUp HTTP/1.1[0m" 200 -
+2020-07-10 23:42:43,969 - INFO:127.0.0.1 - - [10/Jul/2020 23:42:43] "[37mGET /showSignIn HTTP/1.1[0m" 200 -
+2020-07-10 23:42:56,047 - INFO:CONEXÃO INICIADA:guiieqjc@gmail.com 
+2020-07-10 23:42:56,047 - INFO:CONEXÃO INICIADA:18 
+2020-07-10 23:42:56,288 - INFO:VALIDAÇÃO DE USUÁRIO: True
+2020-07-10 23:42:56,288 - INFO:CONEXÃO FINALIZADA
+2020-07-10 23:42:56,288 - INFO:USUÁRIO AUTENTICADO COM SUCESSO
+2020-07-10 23:42:56,288 - INFO:127.0.0.1 - - [10/Jul/2020 23:42:56] "[37mPOST /signIn HTTP/1.1[0m" 200 -
+2020-07-10 23:46:54,689 - INFO:127.0.0.1 - - [10/Jul/2020 23:46:54] "[37mGET /createRule HTTP/1.1[0m" 200 -
+2020-07-10 23:53:07,351 - INFO:CONEXÃO INICIADA
+2020-07-10 23:53:07,354 - ERROR:OCORREU UM ERRO NA CAPTURA DOS DADOS DO FORM
+Traceback (most recent call last):
+  File "U:\home\guilourenzo\flask_website\app.py", line 139, in create
+    cursor.callproc('sp_createDQRule',(_rules_name,_rules_description,_rules_environment, _rules_command, _rules_active))
+  File "C:\Users\guilo\anaconda3\lib\site-packages\pymysql\cursors.py", line 276, in callproc
+    self._query(q)
+  File "C:\Users\guilo\anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\guilo\anaconda3\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\guilo\anaconda3\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "C:\Users\guilo\anaconda3\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\guilo\anaconda3\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "C:\Users\guilo\anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\guilo\anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1406, "Data too long for column 'p_rules_description' at row 1")
+2020-07-10 23:53:07,379 - INFO: * Detected change in 'C:\\Users\\guilo\\anaconda3\\Lib\\site-packages\\pymysql\\cursors.py', reloading
+2020-07-10 23:53:07,390 - INFO:127.0.0.1 - - [10/Jul/2020 23:53:07] "[37mPOST /create HTTP/1.1[0m" 200 -
+2020-07-10 23:53:07,391 - INFO: * Detected change in 'C:\\Users\\guilo\\anaconda3\\Lib\\site-packages\\pymysql\\connections.py', reloading
+2020-07-10 23:53:07,394 - INFO: * Detected change in 'C:\\Users\\guilo\\anaconda3\\Lib\\site-packages\\pymysql\\protocol.py', reloading
+2020-07-10 23:53:07,395 - INFO: * Detected change in 'C:\\Users\\guilo\\anaconda3\\Lib\\site-packages\\pymysql\\err.py', reloading
+2020-07-10 23:53:08,419 - INFO: * Restarting with windowsapi reloader
+2020-07-10 23:53:09,741 - INFO:PROCESSO INICIADO
+2020-07-10 23:53:09,743 - INFO:MYSQL CONFIGURADO COM SUCESSO
+2020-07-10 23:53:09,769 - WARNING: * Debugger is active!
+2020-07-10 23:53:09,799 - INFO: * Debugger PIN: 884-659-376
+2020-07-10 23:53:09,866 - INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-07-10 23:53:36,635 - INFO:CONEXÃO INICIADA
+2020-07-10 23:53:36,672 - INFO:CONEXÃO FINALIZADA
+2020-07-10 23:53:36,756 - INFO:REGRA CADASTRADA COM SUCESSO
+2020-07-10 23:53:36,759 - INFO:127.0.0.1 - - [10/Jul/2020 23:53:36] "[37mPOST /create HTTP/1.1[0m" 200 -
+2020-07-11 00:03:26,149 - INFO:CONEXÃO INICIADA
+2020-07-11 00:03:26,189 - INFO:CONEXÃO FINALIZADA
+2020-07-11 00:03:26,494 - INFO:REGRA CADASTRADA COM SUCESSO
+2020-07-11 00:03:26,494 - INFO:127.0.0.1 - - [11/Jul/2020 00:03:26] "[37mPOST /create HTTP/1.1[0m" 200 -
+2020-07-11 00:06:59,392 - INFO:127.0.0.1 - - [11/Jul/2020 00:06:59] "[37mGET /createRule HTTP/1.1[0m" 200 -
+2020-07-11 00:08:16,454 - INFO:127.0.0.1 - - [11/Jul/2020 00:08:16] "[37mGET /createRule HTTP/1.1[0m" 200 -
+2020-07-11 00:12:46,316 - INFO: * Detected change in 'C:\\Users\\guilo\\anaconda3\\Lib\\sqlite3\\__init__.py', reloading
+2020-07-11 00:12:46,414 - INFO: * Detected change in 'C:\\Users\\guilo\\anaconda3\\Lib\\sqlite3\\dbapi2.py', reloading
+2020-07-11 00:12:47,457 - INFO: * Restarting with windowsapi reloader
+2020-07-11 00:12:48,819 - INFO:PROCESSO INICIADO
+2020-07-11 00:12:48,819 - INFO:MYSQL CONFIGURADO COM SUCESSO
+2020-07-11 00:12:48,835 - WARNING: * Debugger is active!
+2020-07-11 00:12:48,870 - INFO: * Debugger PIN: 884-659-376
+2020-07-11 00:12:48,917 - INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-07-11 00:13:21,793 - INFO: * Detected change in 'C:\\Users\\guilo\\anaconda3\\Lib\\site-packages\\werkzeug\\security.py', reloading
+2020-07-11 00:13:22,812 - INFO: * Restarting with windowsapi reloader
+2020-07-11 00:13:24,194 - INFO:PROCESSO INICIADO
+2020-07-11 00:13:24,194 - INFO:MYSQL CONFIGURADO COM SUCESSO
+2020-07-11 00:13:24,226 - WARNING: * Debugger is active!
+2020-07-11 00:13:24,257 - INFO: * Debugger PIN: 884-659-376
+2020-07-11 00:13:24,304 - INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-07-11 00:51:03,166 - INFO:127.0.0.1 - - [11/Jul/2020 00:51:03] "[37mGET /createRule HTTP/1.1[0m" 200 -
+2020-07-11 00:51:06,486 - INFO:127.0.0.1 - - [11/Jul/2020 00:51:06] "[33mGET /editRules HTTP/1.1[0m" 404 -

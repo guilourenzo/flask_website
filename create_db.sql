@@ -1,17 +1,17 @@
-CREATE DATABASE BucketList;
+#CREATE DATABASE BucketList;
 
 CREATE TABLE `BucketList`.`tbl_user` (
   `user_id` BIGINT NOT NULL AUTO_INCREMENT,
-  `user_name` VARCHAR(45) NULL,
-  `user_username` VARCHAR(45) NULL,
-  `user_password` VARCHAR(45) NULL,
+  `user_name` VARCHAR(50) NULL,
+  `user_username` VARCHAR(50) NULL,
+  `user_password` VARCHAR(150) NULL,
   PRIMARY KEY (`user_id`));
   
 DELIMITER $$
 CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_createUser`(
-    IN p_name VARCHAR(20),
-    IN p_username VARCHAR(20),
-    IN p_password VARCHAR(20)
+    IN p_name VARCHAR(50),
+    IN p_username VARCHAR(50),
+    IN p_password VARCHAR(150)
 )
 BEGIN
     if ( select exists (select 1 from BucketList.tbl_user where user_username = p_username) ) THEN
@@ -34,5 +34,14 @@ BEGIN
         );
      
     END IF;
+END$$
+DELIMITER ;
+
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_returnUser`(
+    IN p_username VARCHAR(50)
+)
+BEGIN
+    select user_password from BucketList.tbl_user where user_username = p_username;
 END$$
 DELIMITER ;
