@@ -50,6 +50,35 @@ CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_returnDQRule`(
     IN p_rules_name VARCHAR(50)
 )
 BEGIN
-    select * from BucketList.tbl_dq_rules where rules_name = p_rules_name and rules_active='S';
+    select * from BucketList.tbl_dq_rules where rules_name = p_rules_name and rules_active=1;
+END$$
+DELIMITER ;
+
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_updateDQRule`(
+	IN p_id_rules BIGINT,
+	IN p_rules_name VARCHAR(30),
+	IN p_rules_description VARCHAR(50),
+	IN p_rules_environment VARCHAR(20),
+	IN p_rules_command VARCHAR(200),
+	IN p_rules_active BIT
+)
+BEGIN
+    if ( select exists (select 1 from BucketList.tbl_dq_rules where id_rules = p_id_rules) ) THEN
+     
+        UPDATE BucketList.tbl_dq_rules
+        SET 
+			rules_name = p_rules_name, 
+			rules_description = p_rules_description, 
+			rules_environment = p_rules_environment, 
+			rules_command = p_rules_command, 
+			rules_active = p_rules_active
+        WHERE
+			id_rules = p_id_rules;
+     
+    ELSE
+     SELECT 'Rule DO NOT Exists !!';
+
+    END IF;
 END$$
 DELIMITER ;
